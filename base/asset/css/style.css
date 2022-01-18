@@ -1,0 +1,86 @@
+body {
+  margin: 0px auto;
+  padding: 0px;
+  background: #ff5f5f;
+  background: -webkit-gradient(linear, left top, right top, from(#ff5f5f), color-stop(47%, #5046ff), to(#0cb5d7));
+  background: linear-gradient(90deg, #ff5f5f 0%, #5046ff 47%, #0cb5d7 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main > .content {
+  background-color: white;
+  padding: 0px 15px;
+  border-radius: 15px;
+}
+
+.main > .content > .title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.main > .content > .task-container {
+  margin: 15px 0px;
+}
+
+.main > .content > .task-container > .task {
+  display: table-column;
+}
+
+.main > .content > .task-container > .task > p {
+  display: table-cell;
+}
+
+.main > .content > .task-container > .task > button {
+  display: table-cell;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-bottom: 15px;
+}
+
+.form-group > input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.form-group > span {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+
+.form-group > button {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.form-group > button:hover {
+  background-color: white;
+}
+
+.form-group > button:active {
+  background-color: #bbb;
+}
+/*# sourceMappingURL=style.css.map */

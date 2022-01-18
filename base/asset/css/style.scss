@@ -1,0 +1,72 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    background: rgb(255,95,95);
+    background: linear-gradient(90deg, rgba(255,95,95,1) 0%, rgba(80,70,255,1) 47%, rgba(12,181,215,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin: 15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>.content{
+    background-color: white;
+    padding: 0px 15px;
+    border-radius: 15px;
+}
+
+.main>.content>.title{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main>.content>.task-container{
+    margin: 15px 0px;
+}
+
+.main>.content>.task-container>.task{
+    display: table-column;
+}
+
+.main>.content>.task-container>.task>p{
+    display: table-cell;
+}
+.main>.content>.task-container>.task>button{
+    display: table-cell;
+}
+
+.form-group{
+    display: flex;
+    align-content: stretch;
+    margin-bottom: 15px;
+}
+
+.form-group>input{
+    flex: 1 0 auto;
+}
+
+.form-group>span{
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 0.5em 1em;
+}
+
+.form-group>button{
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.form-group>button:hover{
+    background-color: white;
+}
+
+.form-group>button:active{
+    background-color: #bbb;
+}
